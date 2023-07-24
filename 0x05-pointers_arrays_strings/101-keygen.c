@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+
 /**
- * main - print password
- * Return: 0
+ * main - print password.
+ *
+ * Return: 0.
  */
+
 int main(void)
 {
 	int ascii = 2772, i = 0, j, random;
@@ -26,6 +29,7 @@ int main(void)
 	{
 		i--;
 	}
+	
 
 	for (j = 0; j <= i; j++)
 	{
